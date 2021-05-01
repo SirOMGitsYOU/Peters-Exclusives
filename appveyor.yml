@@ -16,4 +16,3 @@ cache:
 
 artifacts:
   - path: build\libs
-    name: peters-exclusives-{build}.jar

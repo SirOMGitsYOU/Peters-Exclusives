@@ -17,6 +17,3 @@
 
 ### Custom cape design
 > The cape image files are 22x17, and should be of the PNG format. Additionally, there is support for high definition capes. Those must be of the size that is divisible by 16. The height must be half of the width. So 1024x512, 2048x1024, and so on. Host them on a server, Dropbox, or GitHub.
-
-
-##### License: All rights reserved.

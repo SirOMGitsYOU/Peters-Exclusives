@@ -26,4 +26,4 @@ matrix:
 
 artifacts:
   - path: build\libs
-    name: *
+    name: peters-exclusives*

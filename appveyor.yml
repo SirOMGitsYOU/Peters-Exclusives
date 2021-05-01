@@ -8,8 +8,7 @@ build_script:
 
 branches:
   only:
-    - master
-    - development
+    - 1.12.2
 
 cache:
   - C:\Users\appveyor\.gradle

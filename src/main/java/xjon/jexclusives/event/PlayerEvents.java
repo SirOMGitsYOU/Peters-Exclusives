@@ -50,10 +50,10 @@ public class PlayerEvents {
                                         currentDownloadAmount = packData.downloads;
 
                                         //Use backup if needed
-                                        if (currentDownloadAmount == 0 && JEConfiguration.customModpackSlug.equals("the-1710-pack") && UrlValidator.isUrlValid("http://the-1710-pack.com/repo?api=true")) {
-                                            packData = new Gson().fromJson(Resources.toString(new URL("http://the-1710-pack.com/repo?api=true"), Charsets.UTF_8), TechnicModpackApiData.class);
-                                            currentDownloadAmount = packData.downloads;
-                                        }
+                                        //if (currentDownloadAmount == 0 && JEConfiguration.customModpackSlug.equals("the-1710-pack") && UrlValidator.isUrlValid("http://the-1710-pack.com/repo?api=true")) {
+                                        //    packData = new Gson().fromJson(Resources.toString(new URL("http://the-1710-pack.com/repo?api=true"), Charsets.UTF_8), TechnicModpackApiData.class);
+                                        //    currentDownloadAmount = packData.downloads;
+                                        //}
 
                                         if (currentDownloadAmount >= remoteConfigs.x && currentDownloadAmount <= remoteConfigs.y) {
                                             downloadsMilestone = remoteConfigs.x;

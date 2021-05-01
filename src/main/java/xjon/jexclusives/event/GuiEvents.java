@@ -23,7 +23,7 @@ public class GuiEvents {
             try {
                 Class<?> oclass = Class.forName("java.awt.Desktop");
                 Object object = oclass.getMethod("getDesktop").invoke(null);
-                oclass.getMethod("browse", URI.class).invoke(object, new URI("http://bit.ly/The-1-12-2-Pack-Akliz-Menu"));
+                oclass.getMethod("browse", URI.class).invoke(object, new URI("https://www.bisecthosting.com/VicariousNetwork"));
             } catch (Throwable throwable1) {
                 Throwable throwable = throwable1.getCause();
                 Log.error("Couldn't open link: " + (throwable == null ? "<UNKNOWN>" : throwable.getMessage()));

@@ -11,7 +11,6 @@ import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import xjon.jexclusives.event.ConfigEvents;
 import xjon.jexclusives.event.PlayerEvents;
-import xjon.jexclusives.item.JEItems;
 import xjon.jexclusives.proxy.CommonProxy;
 import xjon.jexclusives.util.JEConfiguration;
 import xjon.jexclusives.util.Reference;
@@ -37,8 +36,6 @@ public class JECore {
 
         MinecraftForge.EVENT_BUS.register(new PlayerEvents());
         proxy.registerGuiEvents();
-
-        JEItems.init();
     }
 
     @EventHandler

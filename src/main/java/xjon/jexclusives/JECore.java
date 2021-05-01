@@ -30,7 +30,7 @@ public class JECore {
 
     @EventHandler
     public void PreInit(FMLPreInitializationEvent event) {
-        config = new Configuration(new File("config/JonsExclusives.cfg"));
+        config = new Configuration(new File("config/PetersExclusives.cfg"));
         config.load();
         JEConfiguration.syncConfig();
 
